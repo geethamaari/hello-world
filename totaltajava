@@ -1,15 +1,11 @@
 import java.util.Scanner;
 public class JavaExample {
    public static void main(String[] args)
-   {
-	//Two variables to hold two input binary numbers	 
+   {	 
 	long b1, b2;
 	int i = 0, carry = 0;
-
-	//This is to hold the output binary number
 	int[] sum = new int[10];
 
-	//To read the input binary numbers entered by user
 	Scanner scanner = new Scanner(System.in);
 
 	//getting first binary number from user
